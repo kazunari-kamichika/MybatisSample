@@ -20,7 +20,7 @@ public interface UserMapper {
 	 *  
 	 * ユーザー情報の主キー検索
 	 */
-	// TODO 下記に記載
+	// TODO 課題1 下記に記載
 	//※メソッドの戻り値の型はServiceクラスの呼び出し元と同じにする
 	
 	
@@ -29,6 +29,6 @@ public interface UserMapper {
 	 * 
 	 * ユーザー情報 新規登録
 	 */
-	// TODO 下記に記載
+	// TODO 課題2 下記に記載
 	//※メソッドの戻り値の型はServiceクラスの呼び出し元と同じにする
 }

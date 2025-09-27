@@ -15,5 +15,20 @@ public interface UserMapper {
 	 * @return
 	 */
 	List<UserEntity> findAll();
-
+	
+	/**
+	 *  
+	 * ユーザー情報の主キー検索
+	 */
+	// TODO 下記に記載
+	//※メソッドの戻り値の型はServiceクラスの呼び出し元と同じにする
+	
+	
+	
+	/**
+	 * 
+	 * ユーザー情報 新規登録
+	 */
+	// TODO 下記に記載
+	//※メソッドの戻り値の型はServiceクラスの呼び出し元と同じにする
 }

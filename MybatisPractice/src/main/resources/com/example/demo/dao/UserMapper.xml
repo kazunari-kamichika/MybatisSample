@@ -5,6 +5,7 @@
 <mapper namespace="com.example.demo.dao.UserMapper">
 
 	<!-- 全ユーザー取得 -->
+	<!--※ id=""はUserMapperクラスのメソッド名と一致させる-->
 	<select id="findAll" resultType="com.example.demo.entity.UserEntity">
 	
 	SELECT
@@ -18,5 +19,14 @@
 	ORDER BY id
 	
 	</select>
+	
+	<!-- 下記にユーザー情報の主キー検索処理を記述 -->
+	
+	
+	
+	
+	
+	<!-- 下記にユーザー情報の新規登録処理を記述 -->
+	
 
 </mapper>
